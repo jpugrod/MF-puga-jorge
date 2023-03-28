@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="#" type="image/x-icon">
+    <title>Examen</title>
+</head>
+
+<body>
+    <h1>Examen, pobre examen...</h1>
+
+    <div class="motor">
+        <h2>1. EJERCICIO. Crea una función denominada dimeTipoMotor() donde pidas el tipo de motor al usuario (indicando que los valores posibles son 1, 2, 3, 4)</h2>
+        <label for="motor">Ingrese el número de motor (1-4):</label>
+        <input type="text" id="motor">
+        <button id="btn1" type="submit">Tipo bomba</button>
+        <br><br>
+        <label>Resultado: </label>
+        <div id="bomba"></div>
+    </div>
+
+    <div class="num-impar">
+        <h2>2. EJERCICIO. Verificar si un número es impar</h2>
+        <label for="numero">Ingrese un número:</label>
+        <input type="text" id="numero">
+        <button id="btn2" type="submit">Verificar</button>
+        <br><br>
+        <label>Resultado: </label>
+        <div id="impar"></div>
+    </div>
+    
+    <div class="dom">
+        <h2>3. EJERCICIO. Añadir un nuevo elemento con nombre de clase “miParrafo“ y con el texto que ponga tu
+            nombre y
+            apellidos y sea hijo del body.</h2>
+        <button id="btn3" type="submit" value="enviar">Crear párrafo</button>
+    </div>
+
+    <div class="triang">
+        <h2>4. EJERCICIO. Calcular área de un triángulo</h2>
+        <input type="number" id="base" placeholder="Base">
+        <input type="number" id="altura" placeholder="Altura">
+        <!-- <button id="btn4" type="submit" value="enviar">Calcular área</button><br>
+        <label for="area">Área del triángulo</label>
+        <input type="text" id="area"> -->
+        <button id="btn4" onclick="obtenerArea()">Calcular área</button>
+        <br><br>
+        <label>Área: </label>
+        <div id="areaResultado"></div>
+
+        <script src="/main.js"></script>
+
+</body>
+
+</html>
